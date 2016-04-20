@@ -12,6 +12,7 @@ include_recipe 'azure::get_platform_rg_and_as'
 include_recipe "azure::get_credentials"
 Chef::Log.info("Starting status ...")
 Chef::Log.info("Starting status ...")
+Chef::Log.info("Starting status ...")
 begin
       client = ComputeManagementClient.new(node['azureCredentials'])
       client.subscription_id = node['subscriptionid']
