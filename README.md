@@ -1,10 +1,6 @@
 Overview
 ========
 
-circuit-oneops-1 clouds, components, packs and services
+Miscellaneous stuff
 
 
-Usage
-========
-
-Install the oneops-admin gem, cd to circuit-oneops-1 and run: circuit install
